@@ -18,7 +18,6 @@ Skills I use but didn't author — install from their source repos:
 
 | Skill | Source |
 |-------|--------|
-| `excalidraw-diagram` | [coleam00/excalidraw-diagram-skill](https://github.com/coleam00/excalidraw-diagram-skill) |
 | `grill-me` | [mattpocock/skills](https://github.com/mattpocock/skills) |
 | `handoff` | [mattpocock/skills](https://github.com/mattpocock/skills) |
 | `teach` | [mattpocock/skills](https://github.com/mattpocock/skills) |
