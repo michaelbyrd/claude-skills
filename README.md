@@ -23,6 +23,12 @@ Skills I use but didn't author — install from their source repos:
 | `handoff` | [mattpocock/skills](https://github.com/mattpocock/skills) |
 | `teach` | [mattpocock/skills](https://github.com/mattpocock/skills) |
 
+### Plugins
+
+| Plugin | Install | Description |
+|--------|---------|-------------|
+| superpowers | `/plugin install superpowers@claude-plugins-official` | Structured agentic workflow: TDD, brainstorming, debugging, code review ([obra/superpowers](https://github.com/obra/superpowers)) |
+
 ## Usage
 
 Skills live in `~/.claude/skills/` and are picked up automatically by Claude Code. To install:
