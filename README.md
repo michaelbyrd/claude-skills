@@ -7,6 +7,21 @@ Personal [Claude Code](https://claude.ai/code) skills.
 | Skill | Trigger | Description |
 |-------|---------|-------------|
 | `diagram` | `/diagram` | Renders diagrams as ASCII art, or generates Excalidraw-compatible prose descriptions |
+| `refresh` | `/refresh` | Syncs Claude's knowledge of files after manual edits |
+| `ruby-init` | `/ruby-init` | Scaffolds a new Ruby project with RSpec, RuboCop, and Pry |
+| `ruby-new-class` | `/ruby-new-class` | Scaffolds a Ruby class and spec file from a class name |
+| `ruby-new-module` | `/ruby-new-module` | Scaffolds a Ruby module and spec file from a module name |
+
+## External Skills
+
+Skills I use but didn't author — install from their source repos:
+
+| Skill | Source |
+|-------|--------|
+| `excalidraw-diagram` | [coleam00/excalidraw-diagram-skill](https://github.com/coleam00/excalidraw-diagram-skill) |
+| `grill-me` | [mattpocock/skills](https://github.com/mattpocock/skills) |
+| `handoff` | [mattpocock/skills](https://github.com/mattpocock/skills) |
+| `teach` | [mattpocock/skills](https://github.com/mattpocock/skills) |
 
 ## Usage
 
