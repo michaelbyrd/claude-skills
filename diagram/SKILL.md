@@ -28,7 +28,7 @@ Third, describe groupings. Embed any annotation text directly in the frame's lab
 
 **Shape and color reference** (use these when writing the prose above):
 
-- Circle, yellow (#fbbf24) — clients, actors, browsers, external systems
+- Circle, yellow (#ffec99) — clients, actors, browsers, external systems
 - Rectangle, blue (#6c8cff) — services, microservices
 - Rectangle, green (#34d399) — databases, persistent storage
 - Rounded rectangle, blue (#6c8cff) — API gateways
