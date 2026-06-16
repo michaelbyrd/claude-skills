@@ -28,21 +28,21 @@ Third, describe groupings. Embed any annotation text directly in the frame's lab
 
 **Shape and color reference** (use these when writing the prose above):
 
-- Circle, yellow — clients, actors, browsers, external systems
-- Rectangle, blue — services, microservices
-- Cylinder, green — databases, persistent storage
-- Rounded rectangle / pill, blue — API gateways
-- Dashed box, green — caches
-- Diamond, red — load balancers
-- Horizontal pill, purple — queues, message brokers
-- Dashed rectangle (frame), gray — boundaries, network zones, groups
+- Circle, yellow (#fbbf24) — clients, actors, browsers, external systems
+- Rectangle, blue (#6c8cff) — services, microservices
+- Rectangle, green (#34d399) — databases, persistent storage
+- Rounded rectangle, blue (#6c8cff) — API gateways
+- Rectangle with dashed border, green (#34d399) — caches
+- Diamond, red (#f87171) — load balancers
+- Rounded rectangle, purple (#a78bfa) — queues, message brokers
+- Frame, gray (#94a3b8) — boundaries, network zones, groups
 
 **Arrow reference** (use these when describing connections):
 
 - Synchronous request (default) — solid arrow, 2–3 word label
 - Async / event — dashed arrow, label with: publishes: event.name
 - WebSocket / streaming — bidirectional arrow
-- Data flow — dashed line
+- Data flow — dashed arrow with "data flow" label (Mermaid cannot apply labels to undirected dashed lines; always use a dashed arrow here, never a bare dashed line)
 
 **Layout guidance:**
 
