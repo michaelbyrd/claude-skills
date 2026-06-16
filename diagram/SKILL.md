@@ -42,7 +42,7 @@ Third, describe groupings. Embed any annotation text directly in the frame's lab
 - Synchronous request (default) — solid arrow, 2–3 word label
 - Async / event — dashed arrow, label with: publishes: event.name
 - WebSocket / streaming — bidirectional arrow
-- Data flow — dashed arrow with "data flow" label (Mermaid cannot apply labels to undirected dashed lines; always use a dashed arrow here, never a bare dashed line)
+- Data flow — directed dashed arrow (`-. "data flow" .->`) with "data flow" label; never use an undirected dashed line, as Mermaid cannot apply labels to those
 
 **Layout guidance:**
 
