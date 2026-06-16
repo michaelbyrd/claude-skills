@@ -42,7 +42,7 @@ Third, describe groupings. Embed any annotation text directly in the frame's lab
 - Synchronous request (default) — solid arrow, 2–3 word label
 - Async / event — dashed arrow, label with: publishes: event.name
 - WebSocket / streaming — bidirectional arrow
-- Data flow — directed dashed arrow (`-. "data flow" .->`) with "data flow" label; never use an undirected dashed line, as Mermaid cannot apply labels to those
+- Data flow — directed dashed arrow with "data flow" label. After outputting any description that includes a data flow arrow, always append this warning on a new line: "Note: Excalidraw's AI may generate a malformed data flow arrow. If you see a syntax error, change the data flow line to: FlowA -. \"data flow\" .-> FlowB (replace FlowA/FlowB with your actual node names)."
 
 **Layout guidance:**
 
