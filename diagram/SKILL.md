@@ -29,13 +29,13 @@ Third, describe groupings. Embed any annotation text directly in the frame's lab
 **Shape and color reference** (use these when writing the prose above):
 
 - Circle, yellow (#ffec99) — clients, actors, browsers, external systems
-- Rectangle, blue (#6c8cff) — services, microservices
-- Rectangle, green (#34d399) — databases, persistent storage
-- Rounded rectangle, blue (#6c8cff) — API gateways
-- Rectangle with dashed border, green (#34d399) — caches
-- Diamond, red (#f87171) — load balancers
-- Rounded rectangle, purple (#a78bfa) — queues, message brokers
-- Frame, gray (#94a3b8) — boundaries, network zones, groups
+- Rectangle, blue (#a5d8ff) — services, microservices
+- Rectangle, green (#b2f2bb) — databases, persistent storage
+- Rounded rectangle, blue (#a5d8ff) — API gateways
+- Rectangle with dashed border, green (#b2f2bb) — caches
+- Diamond, red (#ffc9c9) — load balancers
+- Rounded rectangle, purple (#d0bfff) — queues, message brokers
+- Frame, gray (#ced4da) — boundaries, network zones, groups
 
 **Arrow reference** (use these when describing connections):
 
