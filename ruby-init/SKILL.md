@@ -96,7 +96,13 @@ All Ruby code in this project follow these principles
 
 ## Code Quality
 
-Before every commit, run:
+After each task:
+
+```bash
+bundle exec rspec
+```
+
+After all tasks complete:
 
 ```bash
 bundle exec rubocop
@@ -105,7 +111,18 @@ bundle exec rspec
 
 Both must be clean (0 offenses, 0 failures) before committing. Use `bundle exec rubocop -A` to autocorrect fixable violations. See `.rubocop.yml` for disabled cops and the reasoning behind each.
 
-after proposing a plan,  prompt me to use the /grill-me skill
+## Review Process
+
+No per-task code review subagents. Run rspec after each task; rubocop once at end.
+Final whole-branch review only, after all tasks complete.
+
+## Plans
+
+Bullets over prose. Grammar optional — specificity required. Include class/method names, file paths, argument shapes. Cut filler; keep detail.
+
+- Bad: "We will create a new class that handles the parsing logic"
+- Good: "Add `Parser` in `lib/parser.rb` — `#parse(input)` returns array of tokens"
+
 ````
 
 ### Directories
