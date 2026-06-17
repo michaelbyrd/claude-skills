@@ -86,12 +86,9 @@ Create `CLAUDE.md` with this content:
 ````
 # Project Guidelines
 
-## Ruby Design Principles (POODR)
 
-All Ruby code in this project follows Sandi Metz's Practical Object-Oriented Design principles:
-
+All Ruby code in this project follow these principles
 - **Single Responsibility** — every class and method has one reason to change; extract anything that needs a comment to explain what it does
-- **Hide instance variables** — wrap all ivars with `attr_reader`; never reference `@var` directly outside its accessor, even internally
 - **Dependency injection** — pass collaborators as constructor arguments; never instantiate dependencies inside a class
 - **Tell, don't ask** — send messages to objects to trigger behavior; don't reach into their state and make decisions for them
 - **Small, intention-revealing methods** — each method does one thing and is named after what it accomplishes, not how
@@ -107,6 +104,8 @@ bundle exec rspec
 ```
 
 Both must be clean (0 offenses, 0 failures) before committing. Use `bundle exec rubocop -A` to autocorrect fixable violations. See `.rubocop.yml` for disabled cops and the reasoning behind each.
+
+after proposing a plan,  prompt me to use the /grill-me skill
 ````
 
 ### Directories
