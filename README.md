@@ -7,6 +7,7 @@ Personal [Claude Code](https://claude.ai/code) skills.
 | Skill | Trigger | Description |
 |-------|---------|-------------|
 | `diagram` | `/diagram` | Renders diagrams as ASCII art, or generates Excalidraw-compatible prose descriptions |
+| `python-init` | `/python-init` | Scaffolds a new Python project with uv, pytest, and Ruff |
 | `refresh` | `/refresh` | Syncs Claude's knowledge of files after manual edits |
 | `ruby-init` | `/ruby-init` | Scaffolds a new Ruby project with RSpec, RuboCop, and Pry |
 | `ruby-new-class` | `/ruby-new-class` | Scaffolds a Ruby class and spec file from a class name |
